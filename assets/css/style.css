@@ -107,7 +107,20 @@ margin-right: 30px ;
         border-top: 8px solid #4aaaa5;
         color:  #777777;        
         margin-top: 50px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
 
+   
+    }
+
+    .bot {
+
+     
+     color: #dddddd; 
+     margin-bottom: 0px;
+     line-height: 100%;
+     
     
     }
 
