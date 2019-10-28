@@ -25,6 +25,8 @@
         justify-content: space-between;
         margin: 0px auto;
         
+        
+        
       }
     /* Styling name at header*/
 
@@ -110,8 +112,8 @@ a {
             margin: 0px auto;
             line-height: 200%;            
             font-size: 1rem;
-            margin-top: 2%;
-            margin-bottom: 6%;
+            margin-top: 2% auto;
+            height: 480px auto;
             } 
 
 
@@ -174,8 +176,34 @@ a {
 /* Message box with extra height */
 #message {
   height: 185px;  
+
 }
 
+/* Portfolio */
 
-   
+.all{
+  display: flex;  
+  
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  flex-wrap: wrap;  
+  
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
      
