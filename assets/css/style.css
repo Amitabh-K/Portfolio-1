@@ -1,20 +1,22 @@
+/* Common Styling of All Pages */
 
  body {
     color: #777777;
-    overflow:hidden;
+    overflow: scroll;
     position: relative;    
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url(../images/herringbone.png);
     margin: 0 auto;
-    padding: 0; 
+    padding: 0;
+    
       } 
-
+/* Entire heading Styling including for navigation*/
       .header {        
         background-color: #ffffff;
-        border-bottom: 2px solid #cccccc;
-        
+        border-bottom: 2px solid #cccccc;        
       }
 
+/* Entire heading Styling including for navigation*/
       .hgroup {
         width: 960px;
         display: flex;          
@@ -23,10 +25,10 @@
         justify-content: space-between;
         margin: 0px auto;
         
-        
-        
       }
-    
+    /* Styling name at header*/
+
+
       h1 {
     color: #ffffff;
     background: #4aaaa5;
@@ -37,6 +39,8 @@
     font-weight: bold;
       }
 
+      /* Styling for navigatin as a whole*/
+
       .navigation{        
         list-style-type: none;
         color: #777777;
@@ -46,79 +50,87 @@
         justify-content: space-between;        
         width: 300px;   
         text-align: center;    
-     
-       }
-
-
-       ul {
-
-        
-        display: flex;      
-        
-       }
-
-      .box3 {
-        border-right: 1px solid  #cccccc;
-        flex-grow: 1;
-}
-        .box4 {
-          border-right: 1px solid  #cccccc;
-          flex-grow: 1;
-}
-          .box5 {
-            border-right: 1px solid  #cccccc;
-          flex-grow: 1;
-}
-
+        }
+/* Styling for navigatin as a whole  */
 a {
   color: #dddddd;
   text-decoration: none;
+
   }
+/* Styling navigatin for unordered list*/
 
+       ul {
+        display: flex;
+       }
+/* Styling navigatin each area */
 
-         h2 {    
-          color: #4aaaa5;
-          margin-top: auto;
-          font-size: 1.5rem;
-          font-style: ;          
-         }
+              .box3 {
+                border-right: 1px solid  #cccccc;
+                flex-grow: 1;
+}
 
+              .box4 {
+                border-right: 1px solid  #cccccc;
+                flex-grow: 1;
+}
+            .box5 {
+              border-right: 1px solid  #cccccc;
+              flex-grow: 1;
+             
+}
+/* Styling for navigatin as a whole for hover transition */
+
+            .list{  
+              transition-duration: 1s;
+              -webkit-transition: padding 2s background-color 2s, color 2s;
+              transition: background-color 2s, color 2s;
+}
+
+            .list :hover{
+              background-color: #302d2b;
+              color: azure;  
+              padding: 20%;
+}
+
+/* Sub-hearder styling  */
+
+.aboutme {    
+  color: #4aaaa5;
+  margin-top: auto; 
+  font-size: 1.5rem;
+  margin-bottom: 5%;
+  border-bottom: 2px solid #cccccc;  
+
+ }
+
+ /* Main content styling */
     
     .container {
   
-    max-width: 920px;
-    background-color: #ffffff;
-    padding:20px;
-    margin: 0px auto;
-    line-height: 200%;
-    height: 150%;
-    font-size: 1rem;
-    margin-top: 2%;
-    
-    
-    } 
-
-
-
-    .box1{
-        
-        width: 150px; 
-        float: left;
-        display: flex;
-        justify-content: flex-start;
+            max-width: 920px;
+            background-color: #ffffff;
+            padding:20px;
+            margin: 0px auto;
+            line-height: 200%;            
+            font-size: 1rem;
+            margin-top: 2%;
+            margin-bottom: 6%;
+            } 
+/* Image styling */
+      .box1{
+          box-sizing: 48px 48px;  
+          padding: 1.5%;
+          width: 150px;
+          height: 150px;    
+          float: left;     
         }
 
-
-    .writeUp{
-        margin: 0px;
-        align-self: flex-end;
-        border-top: #dddddd;
-        align-items: flex-end;
-    
-    }
-
-
+/* Footer section styling */
     .footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;      
         font-size: 12px;
         background-color: #666666;
         height: 50px;        
@@ -127,8 +139,10 @@ a {
         display: flex;
         align-items: flex-end;
         justify-content: center;
-        position: relative;
+        
     }
+
+    /* Footer content styling */
 
     .bot {
      color: #dddddd; 
