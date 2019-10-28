@@ -113,7 +113,7 @@ a {
             line-height: 200%;            
             font-size: 1rem;
             margin-top: 2% auto;
-            height: 480px auto;
+            height: 480px auto;            
             } 
 
 
@@ -179,31 +179,40 @@ a {
 
 }
 
-/* Portfolio */
+/* Portfolio styling */
 
-.all{
-  display: flex;  
+
+.conitainer2 {
+  position: relative;
+  display: inline-block;
+  margin-left: auto 0;
+}
+
+.item {
+  position: absolute;  
+  margin: 0 auto;
+  text-align: center;  
+  z-index: 1;  
+  background: #4aaaa5;
+  color: white;
+  width: 80%;  
+  left: 0;
+  right:0;
+  bottom: 15%;
+  height:35px;
+  font-weight: bold;
+  font-size: 1rem;
   
 }
 
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  flex-wrap: wrap;  
+.conitainer2 img {
+  width: 190px;
+  height: 225px;
+  float: left;
+  padding: 25px;
   
-}
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
 
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-     
+
+
