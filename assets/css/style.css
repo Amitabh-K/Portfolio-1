@@ -2,88 +2,119 @@
  body {
     color: #777777;
     overflow:hidden;
-    line-height: 175%;
-    columns: #777777;
-    font-size: 18px;
+    position: relative;    
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-position-y: scroll;
-    margin-right: 480px;
-    background-image: url(../images/herringbone.png);    
+    background-image: url(../images/herringbone.png);
+    margin: 0 auto;
+    padding: 0; 
       } 
 
-    .name{
+      .header {        
         background-color: #ffffff;
-        border-bottom: 2px solid #cccccc;        
-        display:flex;
-    }
-      
-      .hgroup {
-          display: flex;          
-          justify-content: space-between;
-          font-family: 'Georgia', Times, 'Times New Roman', serif;
-          margin-left: 480px;
+        border-bottom: 2px solid #cccccc;
+        
       }
-    
+
+      .hgroup {
+        width: 960px;
+        display: flex;          
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        margin: 0 auto;         
+        justify-content: space-between;
+        margin: 0px auto;
+        
+        
+        
+      }
     
       h1 {
     color: #ffffff;
     background: #4aaaa5;
     text-align: center;    
     padding: 30px;
-    margin-bottom: 0px;
- 
+    align-items: flex-start;
+    font-size: 2rem;
+    font-weight: bold;
       }
 
       .navigation{        
         list-style-type: none;
+        color: #777777;
         display: flex;
         align-items: flex-end;
-        margin-left: 327px;
         text-decoration: none;
- 
-         }
+        justify-content: space-between;        
+        width: 300px;   
+        text-align: center;    
+     
+       }
+
+
+       ul {
+
+        
+        display: flex;      
+        
+       }
+
+      .box3 {
+        border-right: 1px solid  #cccccc;
+        flex-grow: 1;
+}
+        .box4 {
+          border-right: 1px solid  #cccccc;
+          flex-grow: 1;
+}
+          .box5 {
+            border-right: 1px solid  #cccccc;
+          flex-grow: 1;
+}
+
+a {
+  color: #dddddd;
+  text-decoration: none;
+  }
+
 
          h2 {    
           color: #4aaaa5;
-          margin-left: 480px;
-          
-            }
+          margin-top: auto;
+          font-size: 1.5rem;
+          font-style: ;          
+         }
 
-     .box3{
-        margin-right: 30px; 
-     }
-     .box4{
-        margin-right: 30px;
-    }
     
     .container {
-    width: 940px;
-    margin-left: 480px;
+  
+    max-width: 920px;
     background-color: #ffffff;
     padding:20px;
-    height:980px
-    }
+    margin: 0px auto;
+    line-height: 200%;
+    height: 150%;
+    font-size: 1rem;
+    margin-top: 2%;
+    
+    
+    } 
 
-    a {
-    color: #dddddd;
-    text-decoration: none;
-    }
 
 
     .box1{
         
         width: 150px; 
         float: left;
-        margin-right: 20px;
-        margin-top: 25px;
+        display: flex;
+        justify-content: flex-start;
         }
 
 
-    .box2{
+    .writeUp{
         margin: 0px;
         align-self: flex-end;
         border-top: #dddddd;
         align-items: flex-end;
+    
     }
 
 
@@ -93,16 +124,16 @@
         height: 50px;        
         border-top: 8px solid #4aaaa5;
         color:  #777777;        
-        margin-top: 50px;
         display: flex;
         align-items: flex-end;
         justify-content: center;
+        position: relative;
     }
 
     .bot {
      color: #dddddd; 
-     margin-bottom: 0px;
-     line-height: 100%;
+     margin-bottom: 0px auto;
+     
      }
 
-
+     
