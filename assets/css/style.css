@@ -2,7 +2,7 @@
 
  body {
     color: #777777;
-    overflow: scroll;
+    overflow-y: scroll;
     position: relative;   
     background-image: url(../images/herringbone.png);
     margin: 0 auto;
