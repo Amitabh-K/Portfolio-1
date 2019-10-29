@@ -3,8 +3,7 @@
  body {
     color: #777777;
     overflow: scroll;
-    position: relative;    
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: relative;   
     background-image: url(../images/herringbone.png);
     margin: 0 auto;
     padding: 0;
@@ -112,9 +111,11 @@ a {
             margin: 0px auto;
             line-height: 200%;            
             font-size: 1rem;
-            margin-top: 2% auto;
-            height: 480px auto;            
-            } 
+            margin-top: 2%;
+            height: 480px auto; 
+            font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;   
+                
+            }  
 
 
 /* Footer section styling */
@@ -194,7 +195,7 @@ a {
   text-align: center;  
   z-index: 1;  
   background: #4aaaa5;
-  color: #ffffff;
+  color: white;
   width: 80%;  
   left: 0;
   right:0;
